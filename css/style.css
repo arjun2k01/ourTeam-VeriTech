@@ -1,0 +1,224 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.company {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.cdesc {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.main-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.team-member-list li {
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    border-radius: 50% / 25%;
+    padding: 8px;
+    background: transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.team-member-list img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    transition: transform 0.3s ease;
+    border: none;
+    background: transparent;
+}
+
+.team-member-list h5 {
+    font-size: 14px;
+    margin: 4px 0;
+    color: #333;
+}
+
+.team-member-list h6 {
+    font-size: 12px;
+    color: #666;
+}
+
+.team-member-list li:hover {
+    transform: translateY(-6px);
+}
+
+header {
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.cta-buttons a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.chat {
+    background-color: #6c757d;
+}
+
+.get-started {
+    background-color: #007bff;
+}
+
+.cta-buttons a:hover {
+    background-color: #0056b3;
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hamburger-menu div {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-menu li {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.mobile-menu a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.mobile-menu a:hover {
+    background-color: #e9ecef;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .cta-buttons {
+        display: none;
+    }
+
+    .mobile-menu.active {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-heading {
+        font-size: 24px;
+    }
+
+    .team-member-list {
+        justify-content: center;
+    }
+
+    .team-member-list li {
+        max-width: 160px;
+    }
+}
