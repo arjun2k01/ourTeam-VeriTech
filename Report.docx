@@ -1,0 +1,49 @@
+
+---
+
+**Name or Email ID:**  
+Arjun Gupta (arjung938@gmail.com)
+
+**Task Title:**  
+Development of Responsive Team Member Page
+
+**Task Description:**  
+The task involved creating a responsive team member page for the company "Veritech". The page displays various teams within the company, including Leadership, Development, and Sales teams, with their respective members. The objective was to ensure the page is well-structured, visually appealing, and adapts to different screen sizes.
+
+**Steps Taken:**  
+1. **Initial Setup:**
+   - Created a new HTML file and linked it with a CSS stylesheet.
+   - Set up the basic structure including the header and container elements.
+
+2. **Header Design:**
+   - Added the company logo and navigation links.
+   - Implemented a responsive hamburger menu for mobile views.
+
+3. **Content Sections:**
+   - Developed sections for Leadership, Development, and Sales teams.
+   - Created a list of team members with their names, roles, and profile images.
+
+4. **Styling:**
+   - Styled the page using CSS to ensure a clean and modern look.
+   - Made sure the page is responsive and looks good on different devices by using media queries.
+
+
+
+**Challenges Faced:**  
+- **Responsive Design:** Ensuring that the layout and styles worked well across different screen sizes required careful adjustment of CSS properties and media queries.
+- **Menu Toggle Functionality:** Implementing the JavaScript functionality to handle the mobile menu toggle was tricky, especially making it work smoothly on all devices.
+
+**Solutions Implemented:**  
+- **Responsive Design:** Used flexible layouts, media queries, and adjustments in CSS to handle different screen sizes and resolutions.
+- **Menu Toggle Functionality:** Implemented a simple JavaScript function to toggle the mobile menu’s visibility, ensuring it integrates well with the existing CSS.
+
+**Learnings:**  
+- **Responsive Web Design:** Gained practical experience in creating responsive designs and handling various screen sizes.
+- **CSS and JavaScript Integration:** Improved skills in integrating CSS with JavaScript to enhance functionality and user experience.
+- **Debugging and Testing:** Learned effective debugging techniques for responsive layouts and ensuring compatibility across browsers and devices.
+
+**Project Update:**  
+The project has been completed successfully. The team member page is fully functional and responsive. It features a well-organized layout for different teams and individuals within the company. The mobile menu works seamlessly, and the design adapts well to various screen sizes. Further improvements could involve additional user interactions or enhancements based on feedback.
+
+---
+
